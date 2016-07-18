@@ -5,6 +5,6 @@ class TechHookUp < Sinatra::Base
     erb :generator
   end
   get '/profile' do
-  erb :profile
+    erb :profile
   end
 end
